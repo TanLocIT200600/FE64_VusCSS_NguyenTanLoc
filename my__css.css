@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-bottom: -35px;
+}
+
+.brand {
+    position: relative;
+    z-index: 1;
+}
+
+.brand h1 {
+    font-size: 4rem;
+    color: #d7420bf0;
+    position: relative;
+}
+
+.brand p {
+    text-transform: uppercase;
+    color: black;
+    position: relative;
+    font-size: 1.2rem;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #005affd9;
+    transition: all 1s;
+}
+
+nav ul li a:hover {
+    color: #d7420bf0;
+}
+
+nav ul li.active a {
+    color: #d7420bf0;
+}
+
+#banner {
+    background-image: url(./images-layout1/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    /* width: 1341px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* top: -25px; */
+    position: relative;
+}
+
+#banner .banner-content {
+    text-align: right;
+    color: white;
+    position: absolute;
+    left: 60%;
+}
+
+#banner .banner-content h1 {
+    font-size: 4rem;
+    background-color: #68595959;
+    margin: 28px;
+}
+
+#banner .banner-content p {
+    font-size: 1.7rem;
+    background-color: #68595959;
+    margin: 10px;
+    display: inline;
+}
+
+
+/* intro */
+
+#intro {
+    position: relative;
+    background-color: #0089ffa3;
+    margin: 0;
+    padding: 30px 70px;
+}
+
+#intro h1 {
+    font-size: 3.5rem;
+    margin: 0;
+    display: inline;
+    background: #808080a6;
+}
+
+#intro p {
+    font-size: 1.5rem;
+}
+
+
+/* welcome */
+
+#welcome {
+    width: 80%;
+    margin: auto;
+}
+
+#welcome h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 30px;
+}
+
+#welcome .wel-content {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+#welcome .wel-left,
+#welcome .wel-right {
+    width: 50%;
+    float: left;
+}
+
+#welcome .wel-left .wel-item img,
+#welcome .wel-right .wel-item img {
+    width: 100%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.clear-both {
+    clear: both;
+}
+
+#welcome .wel-icon img {
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.wel-icon h2 {
+    font-size: 2rem;
+    color: orangered;
+}
+
+.wel-icon p {
+    margin-left: 10px;
+    text-align: left;
+    padding: 13px;
+    font-size: 1.2rem;
+}
+
+
+/* ourworks */
+
+#ourwork {
+    width: 80%;
+    margin: auto;
+}
+
+#ourwork h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 15px;
+}
+
+#ourwork .our-left {
+    margin-left: 20%;
+}
+
+#ourwork .our-left,
+#ourwork .our-mid,
+#ourwork .our-right {
+    width: 31%;
+    float: left;
+    margin: 20px 10px;
+}
+
+#ourwork .our-left .our-item img,
+#ourwork .our-mid .our-item img,
+#ourwork .our-right .our-item img {
+    width: 100%;
+}
+
+
+/* succeed */
+
+#succeed {
+    width: 80%;
+    margin: auto;
+}
+
+#succeed h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 15px;
+}
+
+.succeed-left {
+    width: 40%;
+    float: left;
+}
+
+.succeed-right {
+    width: 40%;
+    margin-left: 20%;
+    float: left;
+}
+
+#succeed .succeed-left h2 {
+    display: inline;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.succeed-left ul li {
+    list-style: none;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+.succeed-right .succeed-right-item img {
+    width: 100%;
+}
+
+.succeed-right .succeed-right-item {
+    position: relative;
+}
+
+.succeed-right .succeed-right-item .item1
+/* .succeed-right .succeed-right-item .item2/* ,
+.succeed-right .succeed-right-item .item3,
+.succeed-right .succeed-right-item .item4,
+.succeed-right .succeed-right-item .item5*/
+
+{
+    position: absolute;
+    top: 3.7rem;
+    left: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.item1 span,
+.item2 span,
+.item3 span,
+.item4 span,
+.item5 span {
+    font-size: 2rem;
+    color: #0066ff;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.succeed-right .succeed-right-item .item2 {
+    position: absolute;
+    top: 7.7rem;
+    left: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.succeed-right .succeed-right-item .item3 {
+    position: absolute;
+    top: 11.7rem;
+    left: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.succeed-right .succeed-right-item .item4 {
+    position: absolute;
+    top: 15.7rem;
+    left: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.succeed-right .succeed-right-item .item5 {
+    position: absolute;
+    top: 19.7rem;
+    left: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    height: 250px;
+    background-color: #3c3a3a;
+    margin-top: 50px;
+}
+
+#footer .footer-nav,
+#footer .footer-get,
+#footer .footer-email,
+#footer .footer-stal {
+    width: 25%;
+    float: left;
+    /* text-align: center; */
+}
+
+#footer .footer-nav ul li,
+#footer .footer-get ul li {
+    list-style: none;
+    color: #ffffff7d;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.footer-nav h1,
+.footer-get h1,
+.footer-email h1 {
+    margin-top: 50px;
+    font-size: 3rem;
+    color: white;
+    margin-left: 50px;
+}
+
+.footer-email p {
+    color: #ffffff7d;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+
+.footer-email input {
+    margin-left: 50px;
+    width: 60%;
+    padding: 5px;
+}
+
+.footer-email button {
+    background: orangered;
+    border: none;
+    padding: 7px 15px;
+    color: white;
+}
+
+.footer-stal h1 {
+    padding-left: 50px;
+    color: white;
+    padding-top: 70px;
+    font-size: 4.5rem;
+}
+
+.footer-stal p {
+    margin-left: 50px;
+    color: #ffffff7d;
+    font-size: 1.5rem;
+}
+
+.footer-stal span {
+    color: red;
+}
